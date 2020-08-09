@@ -5,7 +5,7 @@
 	> cd fullthrottle-API-test  
 3) **Install virtual environment (can be skipped if already present)**
 	> pip install virtualenv
-4) **Intialize virtual environmnet **
+4) **Intialize virtual environmnet**
 	>virtualenv venv
 5) **Activate virtual environment**
 	> source venv/bin/activate
