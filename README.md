@@ -21,3 +21,22 @@
 	> python manage.py createsuperuser
 10) **Run our django server**
 	> python manage.py runserver
+
+## AWS EC2 deployment
+This Django backend server is deployed on AWS ec2 running on PORT:8000 and can be accessed via [this link](http://3.17.148.62:8000) 
+## Routes
+#### [/user](http://3.17.148.62:8000/user)
+	This User route is used for creation of new user and to view list 
+	of all current user
+#### [/login](http://3.17.148.62:8000/login)
+	This login route is used by user to create a new login session
+#### [/logout](http://3.17.148.62:8000/logout)
+	This logout route is used by user in order to end his current 
+	session and logout from the system.
+#### [/detail](http://3.17.148.62:8000/detail)
+	This route is used in order view all the activity periods of all 
+	the users in the system. Matched with testJSON.json file
+#### [/admin](http://3.17.148.62:8000/admin)
+	This route is used to admin panel
+	use username: admin
+	and password: admin
